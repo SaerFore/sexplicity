@@ -8,19 +8,29 @@
     content="width=device-width, initial-scale=1.0"
   >
 
-  <title>Sexplicity | Swaycore Music Project</title>
+  <title>Sexplicity | Swaycore and Swancore-Rooted Alternative Rock</title>
 
   <meta
     name="description"
-    content="Sexplicity is a production-led music project developing swaycore, a groove-first alternative rock genre derived from swancore."
+    content="Sexplicity is a production-led music project that develops and defines swaycore, a groove-first alternative rock genre derived from swancore."
   >
 
-  <meta name="robots" content="index, follow">
+  <meta
+    name="robots"
+    content="index, follow, max-image-preview:large"
+  >
+
+  <meta name="theme-color" content="#0a0a0b">
+  <meta name="color-scheme" content="dark">
 
   <link
     rel="canonical"
     href="https://saerfore.github.io/sexplicity/"
   >
+
+  <!-- Social previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sexplicity">
 
   <meta
     property="og:title"
@@ -29,37 +39,315 @@
 
   <meta
     property="og:description"
-    content="A production-led music project developing swaycore, a groove-first alternative rock genre derived from swancore."
+    content="A production-led music project defining swaycore, a groove-first alternative rock genre derived from swancore."
   >
-
-  <meta property="og:type" content="website">
 
   <meta
     property="og:url"
     content="https://saerfore.github.io/sexplicity/"
   >
 
+  <meta
+    property="og:image"
+    content="https://saerfore.github.io/sexplicity/assets/images/no-love-fest-cover.png"
+  >
+
+  <meta
+    property="og:image:alt"
+    content="No Love Fest album cover by Sexplicity"
+  >
+
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  >
+
+  <meta
+    name="twitter:title"
+    content="Sexplicity | Swaycore Music Project"
+  >
+
+  <meta
+    name="twitter:description"
+    content="A production-led music project defining swaycore, a groove-first alternative rock genre derived from swancore."
+  >
+
+  <meta
+    name="twitter:image"
+    content="https://saerfore.github.io/sexplicity/assets/images/no-love-fest-cover.png"
+  >
+
+  <!-- Structured data for search engines -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MusicGroup",
-    "name": "Sexplicity",
-    "url": "https://saerfore.github.io/sexplicity/",
-    "description": "Sexplicity is a production-led music project developed through the creative identities of Eli Ruffo and Saer Fore. The project develops and defines swaycore, a groove-first alternative rock genre derived from swancore.",
-    "genre": [
-      "Swaycore",
-      "Swancore",
-      "Alternative Rock",
-      "Progressive Post-Hardcore"
-    ],
-    "album": [
+    "@graph": [
       {
-        "@type": "MusicAlbum",
-        "name": "Body Language"
+        "@type": "WebSite",
+        "@id": "https://saerfore.github.io/sexplicity/#website",
+        "url": "https://saerfore.github.io/sexplicity/",
+        "name": "Sexplicity",
+        "description": "Official information archive for Sexplicity and swaycore.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://saerfore.github.io/sexplicity/#eli-ruffo",
+        "name": "Eli Ruffo"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://saerfore.github.io/sexplicity/#saer-fore",
+        "name": "Saer Fore"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez",
+        "name": "Elian Rodriguez"
+      },
+      {
+        "@type": "MusicGroup",
+        "@id": "https://saerfore.github.io/sexplicity/#project",
+        "name": "Sexplicity",
+        "url": "https://saerfore.github.io/sexplicity/",
+
+        "description": "Sexplicity is a production-led music project developed through the creative identities of Eli Ruffo and Saer Fore. Rooted in swancore, the project develops and defines swaycore, a groove-first alternative rock genre.",
+
+        "genre": [
+          "Swaycore",
+          "Swancore",
+          "Alternative Rock",
+          "Progressive Post-Hardcore"
+        ],
+
+        "creator": [
+          {
+            "@id": "https://saerfore.github.io/sexplicity/#eli-ruffo"
+          },
+          {
+            "@id": "https://saerfore.github.io/sexplicity/#saer-fore"
+          }
+        ],
+
+        "contributor": {
+          "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+        },
+
+        "sameAs": [
+          "https://open.spotify.com/artist/6T9GphzWYKM4tMZ7ntZlyS",
+          "https://www.instagram.com/sexplicityofficial/",
+          "https://www.youtube.com/channel/UCWYISijKkZXoeVHTZVrfEcA"
+        ],
+
+        "album": [
+          {
+            "@id": "https://saerfore.github.io/sexplicity/#body-language"
+          },
+          {
+            "@id": "https://saerfore.github.io/sexplicity/#no-love-fest"
+          }
+        ]
       },
       {
         "@type": "MusicAlbum",
-        "name": "No Love Fest"
+        "@id": "https://saerfore.github.io/sexplicity/#body-language",
+
+        "name": "Body Language",
+
+        "byArtist": {
+          "@id": "https://saerfore.github.io/sexplicity/#project"
+        },
+
+        "albumReleaseType": "https://schema.org/EPRelease",
+        "datePublished": "2026-01-31",
+        "numTracks": 2,
+
+        "image": "https://saerfore.github.io/sexplicity/assets/images/body-language-cover.png",
+
+        "description": "The first Sexplicity EP, exploring physical communication, attraction, hesitation and the point where the body says what words do not.",
+
+        "sameAs": [
+          "https://open.spotify.com/album/4n6CqN5QrRzu79ffuDPZLE",
+          "https://music.apple.com/co/album/body-language-single/1870775485"
+        ],
+
+        "track": [
+          {
+            "@type": "MusicRecording",
+            "position": 1,
+            "name": "I: Body Language",
+            "duration": "PT3M37S",
+            "isrcCode": "QZDA82686183",
+
+            "byArtist": {
+              "@id": "https://saerfore.github.io/sexplicity/#project"
+            },
+
+            "contributor": {
+              "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+            }
+          },
+          {
+            "@type": "MusicRecording",
+            "position": 2,
+            "name": "II: Don’t Go Yet",
+            "duration": "PT3M53S",
+            "isrcCode": "QZDA82686184",
+
+            "byArtist": {
+              "@id": "https://saerfore.github.io/sexplicity/#project"
+            },
+
+            "contributor": {
+              "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MusicAlbum",
+        "@id": "https://saerfore.github.io/sexplicity/#no-love-fest",
+
+        "name": "No Love Fest",
+
+        "byArtist": {
+          "@id": "https://saerfore.github.io/sexplicity/#project"
+        },
+
+        "albumReleaseType": "https://schema.org/AlbumRelease",
+        "datePublished": "2026-02-14",
+        "numTracks": 8,
+
+        "image": "https://saerfore.github.io/sexplicity/assets/images/no-love-fest-cover.png",
+
+        "description": "An eight-track concept album following one intimate connection from its illusion of control through repetition, dependence, confrontation, incomplete separation and emotional consequence.",
+
+        "sameAs": [
+          "https://open.spotify.com/album/1zndRfQGsL4DAO01tPrSuq"
+        ],
+
+        "track": [
+          {
+            "@type": "MusicRecording",
+            "position": 1,
+            "name": "No Love Fest",
+            "duration": "PT3M52S",
+            "isrcCode": "QZDA72603062",
+
+            "byArtist": {
+              "@id": "https://saerfore.github.io/sexplicity/#project"
+            },
+
+            "contributor": {
+              "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+            }
+          },
+          {
+            "@type": "MusicRecording",
+            "position": 2,
+            "name": "After Last Night",
+            "duration": "PT4M32S",
+            "isrcCode": "QZDA72603063",
+
+            "byArtist": {
+              "@id": "https://saerfore.github.io/sexplicity/#project"
+            },
+
+            "contributor": {
+              "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+            }
+          },
+          {
+            "@type": "MusicRecording",
+            "position": 3,
+            "name": "Non-Stop",
+            "duration": "PT3M0S",
+            "isrcCode": "QZDA72603064",
+
+            "byArtist": {
+              "@id": "https://saerfore.github.io/sexplicity/#project"
+            },
+
+            "contributor": {
+              "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+            }
+          },
+          {
+            "@type": "MusicRecording",
+            "position": 4,
+            "name": "Every Single Night",
+            "duration": "PT4M23S",
+            "isrcCode": "QZDA72603065",
+
+            "byArtist": {
+              "@id": "https://saerfore.github.io/sexplicity/#project"
+            },
+
+            "contributor": {
+              "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+            }
+          },
+          {
+            "@type": "MusicRecording",
+            "position": 5,
+            "name": "B.O.D. (Breathe Or Die)",
+            "duration": "PT4M1S",
+            "isrcCode": "QZDA72603066",
+
+            "byArtist": {
+              "@id": "https://saerfore.github.io/sexplicity/#project"
+            },
+
+            "contributor": {
+              "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+            }
+          },
+          {
+            "@type": "MusicRecording",
+            "position": 6,
+            "name": "Pretender",
+            "duration": "PT3M51S",
+            "isrcCode": "QZDA72603067",
+
+            "byArtist": {
+              "@id": "https://saerfore.github.io/sexplicity/#project"
+            },
+
+            "contributor": {
+              "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+            }
+          },
+          {
+            "@type": "MusicRecording",
+            "position": 7,
+            "name": "Leave the Light On",
+            "duration": "PT4M44S",
+            "isrcCode": "QZDA72603068",
+
+            "byArtist": {
+              "@id": "https://saerfore.github.io/sexplicity/#project"
+            },
+
+            "contributor": {
+              "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+            }
+          },
+          {
+            "@type": "MusicRecording",
+            "position": 8,
+            "name": "Echo",
+            "duration": "PT3M49S",
+            "isrcCode": "QZDA72603069",
+
+            "byArtist": {
+              "@id": "https://saerfore.github.io/sexplicity/#project"
+            },
+
+            "contributor": {
+              "@id": "https://saerfore.github.io/sexplicity/#elian-rodriguez"
+            }
+          }
+        ]
       }
     ]
   }
@@ -67,11 +355,14 @@
 
   <style>
     :root {
-      --background: #0b0b0c;
-      --surface: #131315;
-      --text: #f2f2f2;
-      --muted: #ababaf;
-      --line: #2a2a2e;
+      --background: #0a0a0b;
+      --surface: #111113;
+      --surface-secondary: #17171a;
+      --text: #f5f5f6;
+      --soft-text: #d7d7da;
+      --muted: #a6a6ad;
+      --line: #2a2a2f;
+      --max-width: 1080px;
     }
 
     * {
@@ -86,6 +377,7 @@
       margin: 0;
       background: var(--background);
       color: var(--text);
+
       font-family:
         Inter,
         ui-sans-serif,
@@ -94,218 +386,889 @@
         BlinkMacSystemFont,
         "Segoe UI",
         sans-serif;
+
       font-size: 17px;
-      line-height: 1.75;
+      line-height: 1.7;
+      text-rendering: optimizeLegibility;
     }
 
-    main,
-    footer {
-      width: min(780px, calc(100% - 40px));
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration-color: #77777e;
+      text-underline-offset: 0.25em;
+    }
+
+    a:hover,
+    a:focus-visible {
+      text-decoration-color: var(--text);
+    }
+
+    .container {
+      width: min(var(--max-width), calc(100% - 40px));
       margin-inline: auto;
     }
 
-    header {
-      padding: 100px 0 64px;
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(10, 10, 11, 0.9);
+      backdrop-filter: blur(16px);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      min-height: 64px;
+      gap: 24px;
+    }
+
+    .brand {
+      font-weight: 750;
+      letter-spacing: -0.02em;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      gap: 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--text);
+    }
+
+    .hero {
+      padding: 110px 0 88px;
       border-bottom: 1px solid var(--line);
     }
 
-    section {
-      padding: 54px 0;
-      border-bottom: 1px solid var(--line);
+    .eyebrow {
+      margin: 0 0 18px;
+
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
     }
 
     h1,
     h2,
     h3 {
-      line-height: 1.15;
-      letter-spacing: -0.025em;
+      margin-top: 0;
+      line-height: 1.08;
+      letter-spacing: -0.035em;
     }
 
     h1 {
-      margin: 0 0 24px;
-      font-size: clamp(3.5rem, 12vw, 6.5rem);
-      font-weight: 700;
+      max-width: 900px;
+      margin-bottom: 28px;
+
+      font-size: clamp(4rem, 12vw, 8.4rem);
+      font-weight: 800;
     }
 
     h2 {
-      margin: 0 0 24px;
-      font-size: 2rem;
+      margin-bottom: 24px;
+      font-size: clamp(2.1rem, 5vw, 3.5rem);
     }
 
     h3 {
-      margin: 32px 0 10px;
-      font-size: 1.3rem;
+      margin-bottom: 12px;
+      font-size: clamp(1.45rem, 3vw, 2rem);
     }
 
     p {
       margin: 0 0 20px;
     }
 
-    ul {
-      margin: 0;
-      padding-left: 22px;
-    }
-
-    li {
-      margin-bottom: 12px;
-    }
-
-    strong {
-      color: #ffffff;
-    }
-
-    .eyebrow {
-      margin-bottom: 14px;
-      color: var(--muted);
-      font-size: 0.78rem;
-      font-weight: 700;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-    }
-
     .lead {
-      max-width: 700px;
-      margin: 0;
-      color: #d6d6d8;
-      font-size: clamp(1.2rem, 3vw, 1.55rem);
+      max-width: 850px;
+      margin-bottom: 22px;
+
+      color: var(--soft-text);
+      font-size: clamp(1.22rem, 2.8vw, 1.65rem);
       line-height: 1.55;
     }
 
-    .note {
-      margin-top: 34px;
-      padding: 22px;
-      background: var(--surface);
+    .hero-note {
+      max-width: 760px;
+      color: var(--muted);
+    }
+
+    .section {
+      padding: 78px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-intro {
+      max-width: 780px;
+      color: var(--soft-text);
+      font-size: 1.12rem;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns:
+        minmax(0, 1.1fr)
+        minmax(260px, 0.9fr);
+
+      gap: 56px;
+      align-items: start;
+    }
+
+    .quote {
+      margin: 0;
+      padding: 28px;
+
       border-left: 2px solid var(--text);
-      color: #d2d2d5;
+      background: var(--surface);
+
+      color: var(--soft-text);
+      font-size: 1.18rem;
+    }
+
+    .principles {
+      display: grid;
+      gap: 14px;
+
+      margin: 34px 0 0;
+      padding: 0;
+
+      list-style: none;
+    }
+
+    .principles li {
+      padding: 18px 20px;
+
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .principles strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .discography {
+      display: grid;
+      gap: 72px;
+      margin-top: 48px;
+    }
+
+    .release {
+      display: grid;
+      grid-template-columns:
+        minmax(250px, 0.76fr)
+        minmax(0, 1.24fr);
+
+      gap: 44px;
+      align-items: start;
+    }
+
+    .cover {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .release-type {
+      margin: 0 0 10px;
+
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 750;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .release-description {
+      color: var(--soft-text);
+    }
+
+    .release-links,
+    .official-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      margin: 24px 0 28px;
+    }
+
+    .button-link {
+      display: inline-flex;
+      align-items: center;
+
+      min-height: 42px;
+      padding: 9px 14px;
+
+      border: 1px solid var(--line);
+      background: var(--surface);
+
+      font-size: 0.92rem;
+      text-decoration: none;
+    }
+
+    .button-link:hover,
+    .button-link:focus-visible {
+      border-color: #67676f;
+      background: var(--surface-secondary);
+    }
+
+    .tracklist {
+      width: 100%;
+      margin-top: 26px;
+
+      border-collapse: collapse;
+    }
+
+    .tracklist th,
+    .tracklist td {
+      padding: 12px 8px;
+
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .tracklist th {
+      color: var(--muted);
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .track-number {
+      width: 48px;
+      color: var(--muted);
+    }
+
+    .track-duration {
+      width: 72px;
+
+      color: var(--muted);
+      text-align: right !important;
+      white-space: nowrap;
+    }
+
+    details {
+      margin-top: 24px;
+
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    summary {
+      padding: 16px 18px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .details-content {
+      padding: 0 18px 18px;
+      color: var(--muted);
+    }
+
+    .technical-list {
+      display: grid;
+      grid-template-columns:
+        minmax(170px, 0.6fr)
+        minmax(0, 1.4fr);
+
+      gap: 8px 18px;
+      margin: 0;
+    }
+
+    .technical-list dt {
+      color: var(--soft-text);
+      font-weight: 700;
+    }
+
+    .technical-list dd {
+      margin: 0;
+      overflow-wrap: anywhere;
     }
 
     footer {
-      padding: 40px 0 70px;
+      padding: 38px 0 64px;
+
       color: var(--muted);
       font-size: 0.9rem;
     }
 
-    footer p {
-      margin: 0;
+    @media (max-width: 800px) {
+      .two-column,
+      .release {
+        grid-template-columns: 1fr;
+      }
+
+      .release {
+        gap: 28px;
+      }
+
+      .cover {
+        max-width: 520px;
+      }
+
+      .nav-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 15px 0;
+      }
+
+      .nav-links {
+        justify-content: flex-start;
+        gap: 12px 16px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      body {
+        font-size: 16px;
+      }
+
+      .container {
+        width: min(100% - 28px, var(--max-width));
+      }
+
+      .hero {
+        padding: 78px 0 62px;
+      }
+
+      .section {
+        padding: 58px 0;
+      }
+
+      .technical-list {
+        grid-template-columns: 1fr;
+      }
+
+      .technical-list dd {
+        margin-bottom: 10px;
+      }
     }
   </style>
 </head>
 
 <body>
-  <main>
-    <header>
-      <p class="eyebrow">Official project archive</p>
+  <nav
+    class="site-nav"
+    aria-label="Main navigation"
+  >
+    <div class="container nav-inner">
+      <a class="brand" href="#top">
+        Sexplicity
+      </a>
 
-      <h1>Sexplicity</h1>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#swaycore">Swaycore</a>
+        <a href="#discography">Discography</a>
+        <a href="#credits">Credits</a>
+        <a href="#official-links">Links</a>
+      </div>
+    </div>
+  </nav>
 
-      <p class="lead">
-        Sexplicity is a production-led music project developed through
-        the creative identities of Eli Ruffo and Saer Fore.
-      </p>
+  <main id="top">
+    <header class="hero">
+      <div class="container">
+        <p class="eyebrow">
+          Official Sexplicity and Swaycore archive
+        </p>
+
+        <h1>Sexplicity</h1>
+
+        <p class="lead">
+          Sexplicity is a production-led music project developed
+          through the creative identities of Eli Ruffo and Saer Fore.
+        </p>
+
+        <p class="lead">
+          Rooted in swancore, the project develops and defines
+          <strong>swaycore</strong>: a groove-first alternative rock
+          genre built around technical melodic guitars, rhythmic
+          movement, expressive vocals and controlled intensity.
+        </p>
+
+        <p class="hero-note">
+          Sexplicity places sound, production and concept before
+          the idea of a conventional band.
+        </p>
+      </div>
     </header>
 
-    <section id="swaycore">
-      <h2>Swaycore</h2>
+    <section class="section" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">
+            About the project
+          </p>
 
-      <p>
-        The project develops and defines <strong>swaycore</strong>,
-        a groove-first alternative rock genre derived from swancore.
-      </p>
+          <h2>
+            A project built from sound outward.
+          </h2>
 
-      <p>
-        Swaycore preserves the technical and melodic guitar language of
-        swancore, but changes its center of gravity. Bass movement,
-        pocket-focused drums, physical repetition and expressive vocals
-        guide the arrangement, while the guitars create rhythm, tension
-        and memorable melodic detail.
-      </p>
+          <p class="section-intro">
+            Sexplicity is shaped through composition, arrangement,
+            production and a consistent conceptual language. Its
+            releases are not treated as isolated songs, but as
+            connected expressions of intimacy, desire, emotional
+            distance and physical tension.
+          </p>
 
-      <p>
-        Its sound moves between intimacy and controlled aggression,
-        combining dark sensuality, danceable momentum and selective
-        technical complexity.
-      </p>
+          <p>
+            The project combines the guitar vocabulary of swancore
+            with a rhythm section designed around feel, repetition
+            and movement. Technicality remains essential, but it is
+            used selectively: riffs, arpeggios and melodic details
+            serve the groove and the emotional direction of each
+            song rather than dominating every moment.
+          </p>
+        </div>
+
+        <blockquote class="quote">
+          “Swaycore keeps the language of swancore, but changes its
+          center of gravity.”
+        </blockquote>
+      </div>
     </section>
 
-    <section id="characteristics">
-      <h2>Core characteristics</h2>
-
-      <ul>
-        <li>Groove as the main structural force.</li>
-
-        <li>
-          Technical, melodic and rhythm-oriented guitars.
-        </li>
-
-        <li>
-          Active bass lines closely locked with the drums.
-        </li>
-
-        <li>
-          Organic, pocket-focused drumming with cuts and accents
-          that respond to the vocal phrasing.
-        </li>
-
-        <li>
-          Expressive vocals that can move between clean intimacy,
-          grit and force.
-        </li>
-
-        <li>
-          Slow-to-mid-tempo movement, physical repetition and
-          controlled rhythmic tension.
-        </li>
-
-        <li>
-          Lyrics centered on intimacy, desire, emotional distance
-          and human connection.
-        </li>
-      </ul>
-    </section>
-
-    <section id="discography">
-      <h2>Discography</h2>
-
-      <article>
-        <h3>Body Language</h3>
-
-        <p>
-          A conceptual release built around physical communication,
-          attraction and the things people express without saying
-          them directly.
+    <section class="section" id="swaycore">
+      <div class="container">
+        <p class="eyebrow">
+          Genre definition
         </p>
-      </article>
 
-      <article>
-        <h3>No Love Fest</h3>
+        <h2>
+          What is swaycore?
+        </h2>
 
-        <p>
-          A full-length release built around groove, melodic tension,
-          intimacy and shifting emotional distance.
+        <p class="section-intro">
+          Swaycore is a groove-first alternative rock genre derived
+          directly from swancore. It preserves swancore’s technical
+          and melodic guitar language while reorganizing the
+          arrangement around pocket, bass movement, physical
+          repetition and expressive vocal phrasing.
         </p>
-      </article>
 
-      <p class="note">
-        The foundations of swaycore were developed across
-        <em>Body Language</em> and <em>No Love Fest</em> before the
-        genre was formally named.
-      </p>
+        <ul class="principles">
+          <li>
+            <strong>Groove is structural.</strong>
+
+            The rhythm does not merely support the song; it
+            determines how the instruments and vocals move.
+          </li>
+
+          <li>
+            <strong>
+              Guitars remain technical and recognizable.
+            </strong>
+
+            Clean figures, melodic riffs, warm distortion, rhythmic
+            accents and bright arpeggios carry the swancore lineage.
+          </li>
+
+          <li>
+            <strong>
+              Bass and drums create the physical center.
+            </strong>
+
+            Active bass lines, strong pocket and controlled cuts give
+            the music weight, movement and tension.
+          </li>
+
+          <li>
+            <strong>Complexity is selective.</strong>
+
+            Swaycore values memorable detail and rhythmic purpose
+            over nonstop instrumental density.
+          </li>
+
+          <li>
+            <strong>The emotional range stays open.</strong>
+
+            The sound can be intimate, sensual, dark, playful,
+            urgent, danceable or heavy without losing its rhythmic
+            identity.
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section id="links">
-      <h2>Official links</h2>
+    <section class="section" id="discography">
+      <div class="container">
+        <p class="eyebrow">
+          Published catalog
+        </p>
 
-      <p>
-        Streaming, social media and music database links will be
-        added here.
-      </p>
+        <h2>Discography</h2>
+
+        <p class="section-intro">
+          The foundations of swaycore were developed across
+          Sexplicity’s first EP and first full-length album.
+        </p>
+
+        <div class="discography">
+          <!-- BODY LANGUAGE -->
+          <article class="release" id="body-language">
+            <div>
+              <img
+                class="cover"
+                src="assets/images/body-language-cover.png"
+                alt="Body Language EP cover by Sexplicity"
+                width="1200"
+                height="1200"
+              >
+            </div>
+
+            <div>
+              <p class="release-type">
+                EP · January 31, 2026
+              </p>
+
+              <h3>Body Language</h3>
+
+              <p class="release-description">
+                The first Sexplicity EP explores physical
+                communication, attraction and hesitation: the
+                moments in which words stop being enough and the
+                body begins to answer in their place.
+              </p>
+
+              <p class="release-description">
+                Across two connected tracks, intimacy is expressed
+                through proximity, tension, rhythm and the
+                reluctance to end the moment.
+              </p>
+
+              <div class="release-links">
+                <a
+                  class="button-link"
+                  href="https://open.spotify.com/album/4n6CqN5QrRzu79ffuDPZLE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Spotify
+                </a>
+
+                <a
+                  class="button-link"
+                  href="https://music.apple.com/co/album/body-language-single/1870775485"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Apple Music
+                </a>
+              </div>
+
+              <table class="tracklist">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Track</th>
+
+                    <th
+                      scope="col"
+                      class="track-duration"
+                    >
+                      Time
+                    </th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td class="track-number">1</td>
+                    <td>I: Body Language</td>
+                    <td class="track-duration">3:37</td>
+                  </tr>
+
+                  <tr>
+                    <td class="track-number">2</td>
+                    <td>II: Don’t Go Yet</td>
+                    <td class="track-duration">3:53</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <details>
+                <summary>
+                  Recording identifiers
+                </summary>
+
+                <div class="details-content">
+                  <dl class="technical-list">
+                    <dt>I: Body Language</dt>
+                    <dd>ISRC: QZDA82686183</dd>
+
+                    <dt>II: Don’t Go Yet</dt>
+                    <dd>ISRC: QZDA82686184</dd>
+                  </dl>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <!-- NO LOVE FEST -->
+          <article class="release" id="no-love-fest">
+            <div>
+              <img
+                class="cover"
+                src="assets/images/no-love-fest-cover.png"
+                alt="No Love Fest album cover by Sexplicity"
+                width="1200"
+                height="1200"
+                loading="lazy"
+              >
+            </div>
+
+            <div>
+              <p class="release-type">
+                Album · February 14, 2026
+              </p>
+
+              <h3>No Love Fest</h3>
+
+              <p class="release-description">
+                <em>No Love Fest</em> is an eight-track concept album
+                that follows a single intimate connection from
+                beginning to end. What starts with rules and an
+                illusion of control gradually becomes repetition,
+                dependence, self-deception and emotional consequence.
+              </p>
+
+              <p class="release-description">
+                The album traces that progression through attraction,
+                compulsive return, nightly obsession, physical
+                urgency, confrontation, incomplete separation and
+                the echo that remains afterward.
+              </p>
+
+              <div class="release-links">
+                <a
+                  class="button-link"
+                  href="https://open.spotify.com/album/1zndRfQGsL4DAO01tPrSuq"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Spotify
+                </a>
+              </div>
+
+              <table class="tracklist">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Track</th>
+
+                    <th
+                      scope="col"
+                      class="track-duration"
+                    >
+                      Time
+                    </th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td class="track-number">1</td>
+                    <td>No Love Fest</td>
+                    <td class="track-duration">3:52</td>
+                  </tr>
+
+                  <tr>
+                    <td class="track-number">2</td>
+                    <td>After Last Night</td>
+                    <td class="track-duration">4:32</td>
+                  </tr>
+
+                  <tr>
+                    <td class="track-number">3</td>
+                    <td>Non-Stop</td>
+                    <td class="track-duration">3:00</td>
+                  </tr>
+
+                  <tr>
+                    <td class="track-number">4</td>
+                    <td>Every Single Night</td>
+                    <td class="track-duration">4:23</td>
+                  </tr>
+
+                  <tr>
+                    <td class="track-number">5</td>
+                    <td>B.O.D. (Breathe Or Die)</td>
+                    <td class="track-duration">4:01</td>
+                  </tr>
+
+                  <tr>
+                    <td class="track-number">6</td>
+                    <td>Pretender</td>
+                    <td class="track-duration">3:51</td>
+                  </tr>
+
+                  <tr>
+                    <td class="track-number">7</td>
+                    <td>Leave the Light On</td>
+                    <td class="track-duration">4:44</td>
+                  </tr>
+
+                  <tr>
+                    <td class="track-number">8</td>
+                    <td>Echo</td>
+                    <td class="track-duration">3:49</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <details>
+                <summary>
+                  Recording identifiers
+                </summary>
+
+                <div class="details-content">
+                  <dl class="technical-list">
+                    <dt>No Love Fest</dt>
+                    <dd>ISRC: QZDA72603062</dd>
+
+                    <dt>After Last Night</dt>
+                    <dd>ISRC: QZDA72603063</dd>
+
+                    <dt>Non-Stop</dt>
+                    <dd>ISRC: QZDA72603064</dd>
+
+                    <dt>Every Single Night</dt>
+                    <dd>ISRC: QZDA72603065</dd>
+
+                    <dt>B.O.D. (Breathe Or Die)</dt>
+                    <dd>ISRC: QZDA72603066</dd>
+
+                    <dt>Pretender</dt>
+                    <dd>ISRC: QZDA72603067</dd>
+
+                    <dt>Leave the Light On</dt>
+                    <dd>ISRC: QZDA72603068</dd>
+
+                    <dt>Echo</dt>
+                    <dd>ISRC: QZDA72603069</dd>
+                  </dl>
+                </div>
+              </details>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="credits">
+      <div class="container">
+        <p class="eyebrow">
+          Production information
+        </p>
+
+        <h2>Credits</h2>
+
+        <p class="section-intro">
+          Sexplicity is developed as a production-led project rather
+          than presented as a conventional band.
+        </p>
+
+        <details>
+          <summary>
+            View technical credits
+          </summary>
+
+          <div class="details-content">
+            <dl class="technical-list">
+              <dt>Composition and lyrics</dt>
+              <dd>Saer Fore and Eli Ruffo</dd>
+
+              <dt>Guitar and bass</dt>
+              <dd>Elian Rodriguez</dd>
+
+              <dt>Production, mixing and mastering</dt>
+
+              <dd>
+                Completed in collaboration with an independent
+                production team.
+              </dd>
+            </dl>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="section" id="official-links">
+      <div class="container">
+        <p class="eyebrow">
+          Official profiles
+        </p>
+
+        <h2>Listen and follow</h2>
+
+        <div class="official-links">
+          <a
+            class="button-link"
+            href="https://open.spotify.com/artist/6T9GphzWYKM4tMZ7ntZlyS"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Spotify
+          </a>
+
+          <a
+            class="button-link"
+            href="https://www.instagram.com/sexplicityofficial/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+
+          <a
+            class="button-link"
+            href="https://www.youtube.com/channel/UCWYISijKkZXoeVHTZVrfEcA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            YouTube
+          </a>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>
-      Official information archive for Sexplicity. Last updated July 2026.
-    </p>
+    <div class="container">
+      <p>
+        Official information archive for Sexplicity and swaycore.
+        Last updated July 2026.
+      </p>
+    </div>
   </footer>
 </body>
 </html>
